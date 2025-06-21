@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <Title>AvaloniaUtils</Title>
+        <Version>0.1.0</Version>
+        <Authors>metaone01</Authors>
+        <Description>Provide some utilities for Avalonia.</Description>
+        <RepositoryUrl>https://github.com/metaone01/Avalonia-Utils</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>avalonia avaloniaui utils</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+        <RootNamespace>Avalonia_Utils</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\README.md" Pack="True" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
